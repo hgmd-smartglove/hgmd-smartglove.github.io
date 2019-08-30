@@ -1,0 +1,169 @@
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+
+html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    transition: all 0.7s ease-in-out;
+    font-family: 'NanumSquareRound';
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, li {
+    margin: 0;
+}
+
+h2, h3, li { font-weight: normal; }
+
+img { display: block; }
+
+.slide { height: 100vh; }
+
+.back-iwop { background: #36afff; }
+.back-red { background: #a33; }
+.back-green { background: #3a3; }
+.back-blue { background: #33a; }
+.back-white { background: #fff; }
+.back-hgmd { background: #63ccff; }
+
+.color-hgmd { color: #63ccff; }
+.color-dark-hgmd { color: #039be5; }
+
+#popup {
+    position: fixed;
+    width: 6vh;
+    height: 6vh;
+    bottom: 1.5vh;
+    right: 1.5vh;
+    
+    font-size: 1.5em;
+}
+
+#main-title {
+    font-size: 10em;
+    font-weight: normal;
+    text-align: center;
+
+    padding-top: 35vh;
+    padding-left: 0.5vh;
+}
+
+#main-title-sub {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+
+    padding-top: 1vh;
+}
+
+.slide-title {
+    font-size: 7em;
+    font-weight: bold;
+
+    padding-left: 11vh;
+    padding-top: 9vh;
+}
+
+#gggg {
+    margin-top: 20vh;
+}
+
+.slide-paragraph {
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    font-family: 'NanumSquareRound';
+}
+
+.slide-description-list {
+    font-size: 5em;
+    font-weight: bold;
+
+    margin-left: 15vh;
+    padding-top: 5vh;
+}
+
+.slide-description-list-item {
+    padding: 1vh;
+}
+
+.slide-description-text-center {
+    font-size: 6em;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.slide-description-text-center-middle {
+    font-size: 6em;
+    text-align: center;
+    margin-top: 27vh;
+}
+
+.slide-description-picture {
+    margin: 0 auto;
+    width: 50vw;
+    margin-top: 2vh;
+}
+
+.slide-description-itembox-wrapper {
+    display: flex;
+    align-items: space-around;
+    width: 100vw;
+    margin-top: 3vh;
+}
+
+.slide-description-itembox {
+    margin: 7vw;
+    width: 19vw;
+}
+
+.slide-description-itembox > img {
+    margin: 0 auto;
+    height: 20vh;
+    max-width: 19vw;
+}
+
+.slide-description-itembox > h2#title {
+    font-size: 6em;
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.slide-description-itembox > h2#des {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.slide-description-projectbox {
+    display: flex;
+    margin: 6vh;
+}
+
+.slide-description-projectbox > #des {
+    margin-left: 5vh;
+    width: 40vw;
+}
+
+.slide-description-projectbox > #des > h2 {
+    font-size: 4em;
+}
+
+.slide-description-projectbox > #des > p {
+    font-size: 2.5em;
+}
+
+.slide-description-projectbox > .img {
+    margin-left: 10vh;
+    width: 82vh;
+}
+
+#kamsahabnida {
+    font-size: 10em;
+    
+    padding-top: 40vh;
+    text-align: center;
+}
